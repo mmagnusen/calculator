@@ -5,17 +5,17 @@ export const calculator = {
 
     },
 
-    calculateGroceries: (shoppingBasket) => {
+    // calculateGroceries: (shoppingBasket) => {
 
-        let total = 0;
+    //     let total = 0;
 
-        shoppingBasket.forEach(item => {
+    //     shoppingBasket.forEach(item => {
 
-            total += item.price
+    //         total += item.price
 
-        });
+    //     });
 
-        return total
+    //     return total
         
-    }
+    // }
 }

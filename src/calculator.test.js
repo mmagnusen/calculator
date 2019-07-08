@@ -1,4 +1,4 @@
-import { calculator } from './'
+import { calculator } from './Calculator'
 
 describe('calculator', () => {
 
@@ -10,33 +10,33 @@ describe('calculator', () => {
         })
     })
 
-    describe('calculateGroceries', () => {
+    // describe('calculateGroceries', () => {
 
-        it('should provide the total value of all items in the shopping basket', () => {
+    //     it('should provide the total value of all items in the shopping basket', () => {
 
-            const shoppingBasket = [
-                { 
-                    name: 'apple',
-                    price: 2,
-                },
-                {    
-                    name: 'apple',
-                    price: 3,
-                },
-                {  
-                    name: 'apple',
-                    price: 4,
-                },
-                {    
-                    name: 'apple',
-                    price: 5,
-                }
-            ]
+    //         const shoppingBasket = [
+    //             { 
+    //                 name: 'apple',
+    //                 price: 2,
+    //             },
+    //             {    
+    //                 name: 'apple',
+    //                 price: 3,
+    //             },
+    //             {  
+    //                 name: 'apple',
+    //                 price: 4,
+    //             },
+    //             {    
+    //                 name: 'apple',
+    //                 price: 5,
+    //             }
+    //         ]
 
-            const total = calculator.calculateGroceries(shoppingBasket)
+    //         const total = calculator.calculateGroceries(shoppingBasket)
 
-            expect(total).toEqual(14)
+    //         expect(total).toEqual(14)
 
-        })
-    })
+    //     })
+    // })
 })
